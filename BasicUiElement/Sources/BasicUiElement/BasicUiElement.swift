@@ -3,7 +3,9 @@
 
 import SwiftUI
 
+@available(iOS 13.0, *)
 extension View {
+    @available(iOS 15.0, *)
     func roundedCard(color: Color?, radius: Double?) -> some View {
         self.frame(maxWidth: .infinity, maxHeight: .infinity)
             .padding()
